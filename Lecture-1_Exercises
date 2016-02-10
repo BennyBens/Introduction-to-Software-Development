@@ -1,0 +1,56 @@
+
+
+                                        MSc Information Technology & Computer Science
+                                                Python revision lecture
+                                                   Birkbeck - London
+
+
+1) Write a function to calculate the number of occurances of a list of words in a string.
+
+        pseudo :
+        
+        for every word in the list:
+            count = number of times the word is in the list
+            if count > 0:
+                print "This word : WORD was in the string COUNT times"
+        
+
+2) Write a function which takes a string and returns the same string without any newlines or spaces.
+
+   You may use built in strip, rstrip, lstrip, or replace methods.
+
+
+3) Write a function which takes a string and a list, and checks if the string contains every word in that list.
+
+   If every word is in the list, the function must print 'Yay!' otherwise, raise a LookupError exception saying 'Not all words exist in the string!'
+
+        You may use either a for loop with len() and range() or enumerate()
+        
+        pseudo :
+        
+        for every word in the string:
+            for every word in the list:
+                if word == word:
+                ...
+    
+
+4) Write a function which takes a string of words, separated by / (forward slash) and prints them out one by one, 
+before using the join() method to joint the words back into the original text and printing it at the end of its operation.
+        
+        Example output :
+        
+        string = 'some/words/go/in/here'
+        
+        Output : 
+        
+        Word : some
+        Word : words
+        Word : go
+        Word : in
+        Word : here
+        The original string is : some/words/go/in/here
+
+5) Write a function which takes two lists and checks if they match in size. Your function should return a list.
+
+   The list should contain two elements, one a string which reads 'Yay!' if the lists match in size or 'Boo!' if they do not.
+   The second element of the list should be a boolean which is set to True if the lists match in size and False if they do not.
